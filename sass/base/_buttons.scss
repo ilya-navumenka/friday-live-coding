@@ -34,10 +34,15 @@
     @extend %transition;
     display: inline-flex;
     align-items: center;
+    transition: .3s;
     &:hover {
-        color: $color-additional;
+        color: $color-red;
+        .ico_play {
+            background-image: url("../img/icons/play-hover.svg");
+        }
     }
 }
+
 
 .link-button__text {
     margin-left: 9px;
